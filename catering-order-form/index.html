@@ -1,0 +1,1024 @@
+<!doctype html>
+<html lang="en">
+
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="initial-scale=1">
+        <base >
+        <title>Rebel</title><link rel="apple-touch-icon" sizes="57x57" href="../apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="../apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="../apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="../apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="../apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="../apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="../apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="../apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="../apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="../android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="../favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+        <link rel="manifest" href="../manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="../ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+        <link rel="stylesheet" type="text/css" href="../wp-content/themes/greenrebel/css/main.min.css"/>
+    </head>
+    <body class="page-template page-template-order-form page-template-order-form-php page page-id-20 catering-order-form">
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">Please <strong>update</strong> your browser. <a href="http://browsehappy.com/">Download</a> the newest version of your browser.</p>
+        <![endif]-->
+        <!-- header -->
+        <header>
+            <div class="inner-header">
+                <a href="../index.html" class="logo"></a>
+                <div id="menu" class="menu">
+                     <ul id="menu-main-menu" class=""><li id="menu-item-29" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home"><a href="../index.html"><span data-hover="Home">Home</span></a></li>
+<li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="../green-rebel-menu/index.html"><span data-hover="Green Rebel Menu">Rebel Menu</span></a></li>
+<li id="menu-item-26" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="../catering/index.html"><span data-hover="Catering">Catering</span></a></li>
+<li id="menu-item-27" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="../rebel-bowl/index.html"><span data-hover="Rebel Bowl">Rebel Bowl</span></a></li>
+<li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="../about/index.html"><span data-hover="About">About</span></a></li>
+<li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="../contact/index.html"><span data-hover="Let&#039;s connect">Let&#8217;s connect</span></a></li>
+<li id="menu-item-178" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a href="../order-now/index.html"><span data-hover="Order Lunch">Order Lunch</span></a></li>
+</ul>                </div>
+                <div id="hamburger" class="hamburger">
+                    <span>&nbsp;</span>
+                    <span>&nbsp;</span>
+                    <span>&nbsp;</span>
+                </div>
+            </div>
+        </header>
+    <!-- main -->
+    <section>
+        <div class="intro texturized no-shadow">
+            <div class="box center">
+                <h2>Catering order form</h2>
+                <p>Complete the form to request your order
+                    <br>
+                    <span style="font-size: 16px;">Not applicable for same day requests</span>
+                </p>
+                <a href="#" id="scroll-down" class="scroll-down"><i class="icon-arrow"></i></a>
+            </div>
+            <div class="note">
+                <span>Any questions or need some help?<br>Don't hesitate to reach out <a href="tel:123-456-7890">123-456-7890</a><br>or <a href="mailto:nezukochan.ncore@gmail.com">nezukochan.ncore@gmail.com</a></span>
+            </div>
+            <div class="order-steps">
+                <ul>
+                    <li>
+                        <a id="step-1" href="#" class="current">
+                            <i class="icon-step"></i>
+                            <span>STEP 1</span>
+                            <span class="step-label">company / event details</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a id="step-2" href="#" class="">
+                            <i class="icon-step"></i>
+                            <span>STEP 2</span>
+                            <span class="step-label">food / drinks</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div  id="scroll-target" class="white">
+            <div class="page-section">
+                <div class="wrapper">
+                    <form id="form">
+                        <!-- step 1 -->
+                        <div id="form-step-1" class="col col-12">
+                            <div class="form-group radio-group">
+                                <label class="selected">
+                                    <input class="selected-input" type="radio" name="request_type" value="process order" checked><span>Process order</span>
+                                    <span class="radio-icon"><i class="inner"></i></span>
+                                </label>
+                                <label>
+                                    <input class="selected-input" type="radio" name="request_type" value="send quote"><span>Send quote</span>
+                                    <span class="radio-icon"><i class="inner"></i></span>
+                                </label>
+                            </div>
+                            <div class="content-header">
+                                <h4>Company data</h4>
+                            </div>
+                            <div class="form-group">
+                                <label><span>Company name</span><input class="selected-input" type="text" name="company_name" required></label>
+                            </div>
+                            <div class="form-group fg-3">
+                                <label>
+                                    <span>Contact person placing order</span>
+                                    <input class="selected-input" type="text" name="contact_name" placeholder="contact name" required>
+                                </label>
+                                <label>
+                                    <span>&nbsp;</span>
+                                    <input class="selected-input" type="text" name="contact_email" placeholder="e-mail" required>
+                                </label>
+                                <label>
+                                    <span>&nbsp;</span>
+                                    <input class="selected-input" type="text" name="contact_phone" placeholder="phone no.">
+                                </label>
+                            </div>
+                            <div class="form-group fg-3">
+                                <label>
+                                    <span>Contact person on the day (if different)</span>
+                                    <input class="selected-input" type="text" name="day_contact_name" placeholder="contact name">
+                                </label>
+                                <label>
+                                    <span>&nbsp;</span>
+                                    <input class="selected-input" type="text" name="day_contact_email" placeholder="e-mail">
+                                </label>
+                                <label>
+                                    <span>&nbsp;</span>
+                                    <input class="selected-input" type="text" name="day_contact_phone" placeholder="phone no.">
+                                </label>
+                            </div>
+                            <div class="form-group">
+                                <label class="col col-f-6">
+                                    <span>Invoicing address</span>
+                                    <textarea class="selected-input" name="invoicing_address"></textarea>
+                                </label>
+                                <label class="col col-f-6">
+                                    <span>Shipping address</span>
+                                    <textarea class="selected-input" name="shipping_address"></textarea>
+                                </label>
+                            </div>
+                            <div class="form-group">
+                                <label><span>Reference or po#</span><input class="selected-input" type="text" name="referencepo"></label>
+                            </div>
+                            <div class="content-header m-t-50">
+                                <h4>Event details</h4>
+                            </div>
+                            <div class="form-group">
+                                <label class="col col-f-6"><span>Number of guests</span><input class="selected-input" type="text" name="guests_no" required></label>
+                                <label class="col col-f-6">
+                                    <span>Event date</span>
+                                    <input class="selected-input datepicker" type="text" name="date_from" placeholder="dd/mm/yyyy">
+                                </label>
+                            </div>
+                            <div class="form-group">
+                                <label class="col col-f-6">
+                                    <span>Dishes required</span>
+                                    <div class="select-box">
+                                        <select class="selected-input" name="dishes" placeholder="please select"><option>Compostable</option><option>Ceramic</option></select>
+                                    </div>
+                                </label>
+
+                                <label class="col time-input first">
+                                    <span>Delivery time</span>
+                                    <div class="select-box">
+                                        <select class="selected-input" name="delivery_hour">
+                                            <option>-</option>
+                                            <option>01</option>
+                                            <option>02</option>
+                                            <option>03</option>
+                                            <option>04</option>
+                                            <option>05</option>
+                                            <option>06</option>
+                                            <option>07</option>
+                                            <option>08</option>
+                                            <option>09</option>
+                                            <option>10</option>
+                                            <option>11</option>
+                                            <option>12</option>
+                                        </select>
+                                    </div>
+                                    <span style="display: block;float: left;width: 5%;line-height: 42px;height: 38px;text-align: center;">:</span>
+                                    <div class="select-box">
+                                        <select class="selected-input" name="delivery_minute">
+                                            <option>-</option>
+                                            <option>00</option>
+                                            <option>05</option>
+                                            <option>10</option>
+                                            <option>15</option>
+                                            <option>20</option>
+                                            <option>25</option>
+                                            <option>30</option>
+                                            <option>35</option>
+                                            <option>40</option>
+                                            <option>45</option>
+                                            <option>50</option>
+                                            <option>55</option>
+                                        </select>
+                                    </div>
+                                    <span style="display: block;float: left;width: 5%;line-height: 42px;height: 38px;text-align: center;">&nbsp;</span>
+                                    <div class="select-box">
+                                        <select class="selected-input" name="delivery_time_2"><option>AM</option><option>PM</option><option>-</option></select>
+                                    </div>
+                                </label>
+                                <label class="col time-input">
+                                    <span>Pick up time (if applicable)</span>
+                                    <div class="select-box">
+                                        <select class="selected-input" name="pickup_hour">
+                                            <option>-</option>
+                                            <option>01</option>
+                                            <option>02</option>
+                                            <option>03</option>
+                                            <option>04</option>
+                                            <option>05</option>
+                                            <option>06</option>
+                                            <option>07</option>
+                                            <option>08</option>
+                                            <option>09</option>
+                                            <option>10</option>
+                                            <option>11</option>
+                                            <option>12</option>
+                                        </select>
+                                    </div>
+                                    <span style="display: block;float: left;width: 5%;line-height: 42px;height: 38px;text-align: center;">:</span>
+                                    <div class="select-box">
+                                        <select class="selected-input" name="pickup_minute">
+                                            <option>-</option>
+                                            <option>00</option>
+                                            <option>05</option>
+                                            <option>10</option>
+                                            <option>15</option>
+                                            <option>20</option>
+                                            <option>25</option>
+                                            <option>30</option>
+                                            <option>35</option>
+                                            <option>40</option>
+                                            <option>45</option>
+                                            <option>50</option>
+                                            <option>55</option>
+                                        </select>
+                                    </div>
+                                    <span style="display: block;float: left;width: 5%;line-height: 42px;height: 38px;text-align: center;">&nbsp;</span>
+                                    <div class="select-box">
+                                        <select class="selected-input" name="pickup_time_2"><option>AM</option><option>PM</option><option>-</option></select>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="form-group">
+                                <label class="col col-f-6">
+                                    <span>Allergies / food restrictions</span>
+                                    <textarea class="selected-input" name="allergies" placeholder="describe if applicable"></textarea>
+                                </label>
+                                <label class="col col-f-6">
+                                    <span>Comments</span>
+                                    <textarea class="selected-input" name="commentsform"></textarea>
+                                </label>
+                            </div>
+                            <div class="btn-group center">
+                                <a id="trigger-step-2" href="#" class="btn btn-brown btn-icon"><span class="btn-text">SELECT FOOD AND DRINKS</span><i class="icon-arrow-right"></i></a>
+                            </div>
+                        </div>
+
+
+
+                                            <!-- step 2 -->
+                        <div id="form-step-2" class="col col-12">
+
+                            <div class="content-header">
+                                <h4>Rebel breakfast</h4>
+                            </div>
+                                                            <div class="form-group">
+                                                                                                                    <div class="col col-f-6 checkbox-item">
+                                            <label class="col col-12">
+                                                <input name="breakfast[]" value="Bagel Platter" type="checkbox">
+                                                <div class="check"></div>
+                                                <span>Bagel Platter</span>
+                                                <span class="menu-desc">A selection of Montreal style bagels with cream cheese, jam and peanut butter</span>
+                                            </label>
+                                                                                                    <div class="select-box special">
+                                                        <select name="breakfastqty[]"><option>6-8 PPL</option><option>10-12 PPL</option><option>16-18 PPL</option></select>
+                                                    </div>
+                                                                                        </div>
+                                                                                                                                                            <div class="col col-f-6 checkbox-item">
+                                            <label class="col col-12">
+                                                <input name="breakfast[]" value="Baked Breakfast Goods" type="checkbox">
+                                                <div class="check"></div>
+                                                <span>Baked Breakfast Goods</span>
+                                                <span class="menu-desc">Breakfast pastries, fresh muffins and other fresh baked goods</span>
+                                            </label>
+                                                                                                    <div class="select-box special">
+                                                        <select name="breakfastqty[]"><option>6-8 PPL</option><option>10-12 PPL</option><option>16-18 PPL</option></select>
+                                                    </div>
+                                                                                        </div>
+                                                                                                                                                            <div class="col col-f-6 checkbox-item">
+                                            <label class="col col-12">
+                                                <input name="breakfast[]" value="Board of Directors Pastry Platter" type="checkbox">
+                                                <div class="check"></div>
+                                                <span>Board of Directors Pastry Platter</span>
+                                                <span class="menu-desc">Gourmet platter with scones, breakfast breads muffins served with jam and butter</span>
+                                            </label>
+                                                                                                    <div class="select-box special">
+                                                        <select name="breakfastqty[]"><option>6-8 PPL</option><option>10-12 PPL</option><option>16-18 PPL</option></select>
+                                                    </div>
+                                                                                        </div>
+                                                                                                                                                            <div class="col col-f-6 checkbox-item">
+                                            <label class="col col-12">
+                                                <input name="breakfast[]" value="Fruit Platter" type="checkbox">
+                                                <div class="check"></div>
+                                                <span>Fruit Platter</span>
+                                                <span class="menu-desc">A fresh selection of fruit sliced and diced. </span>
+                                            </label>
+                                                                                                    <div class="select-box special">
+                                                        <select name="breakfastqty[]"><option>6-8 PPL</option><option>10-12 PPL</option><option>16-18 PPL</option></select>
+                                                    </div>
+                                                                                        </div>
+                                                                                                                                                            <div class="col col-f-6 checkbox-item">
+                                            <label class="col col-12">
+                                                <input name="breakfast[]" value="Scone Platter" type="checkbox">
+                                                <div class="check"></div>
+                                                <span>Scone Platter</span>
+                                                <span class="menu-desc">Fresh  baked scones served with jam and butter.</span>
+                                            </label>
+                                                                                                    <div class="number-box">
+                                                        <input name="breakfastqty[]" type="number" value="1" min="0">
+                                                    </div>
+                                                                                        </div>
+                                                                                                                                                            <div class="col col-f-6 checkbox-item">
+                                            <label class="col col-12">
+                                                <input name="breakfast[]" value="Muffin Platter" type="checkbox">
+                                                <div class="check"></div>
+                                                <span>Muffin Platter</span>
+                                                <span class="menu-desc">A variety of fresh baked muffins</span>
+                                            </label>
+                                                                                                    <div class="number-box">
+                                                        <input name="breakfastqty[]" type="number" value="1" min="0">
+                                                    </div>
+                                                                                        </div>
+                                                                                                                                                            <div class="col col-f-6 checkbox-item">
+                                            <label class="col col-12">
+                                                <input name="breakfast[]" value="Yogurt Parfait" type="checkbox">
+                                                <div class="check"></div>
+                                                <span>Yogurt Parfait</span>
+                                                <span class="menu-desc">Yogurt, fruit & muesli served in compostable cups</span>
+                                            </label>
+                                                                                                    <div class="number-box">
+                                                        <input name="breakfastqty[]" type="number" value="1" min="0">
+                                                    </div>
+                                                                                        </div>
+                                                                                                            </div>
+
+                            <div class="content-header">
+                                <h4>Breakfast lunch and in between</h4>
+                            </div>
+
+
+                            <div class="content-header">
+                                <h4>Lunch</h4>
+                            </div>
+                            <div class="form-group">
+                                <div class="col col-6">
+                                    <h5>Sandwiches</h5>
+                                                                                                                                                                    <div class="col col-l-12 checkbox-item">
+                                                <label class="col col-12">
+                                                    <input name="sandwiches[]" value="Sandwich Platter" type="checkbox">
+                                                    <div class="check"></div>
+                                                    <span>Sandwich Platter</span>
+                                                    <span class="menu-desc">A variety served on multigrain ciabatta and flatbread including veg options<br>Per Person</span>
+                                                </label>
+                                                <div class="super-selects">
+                                                    <div class="number-box number-desc">
+                                                        <span>Standard options</span>
+                                                        <input type="number" name="stdsandwichesqty[]" value="1" min="0">
+                                                    </div>
+                                                    <div class="number-box number-desc">
+                                                        <span>Vegaterian options</span>
+                                                        <input type="number" name="vegsandwichesqty[]" value="1" min="0">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                                                                                                                                                            <div class="col col-l-12 checkbox-item">
+                                                <label class="col col-12">
+                                                    <input name="sandwiches[]" value="Rebel Wraps Platter" type="checkbox">
+                                                    <div class="check"></div>
+                                                    <span>Rebel Wraps Platter</span>
+                                                    <span class="menu-desc">A variety served on local bread including veg options <br>Per Person</span>
+                                                </label>
+                                                <div class="super-selects">
+                                                    <div class="number-box number-desc">
+                                                        <span>Standard options</span>
+                                                        <input type="number" name="stdsandwichesqty[]" value="1" min="0">
+                                                    </div>
+                                                    <div class="number-box number-desc">
+                                                        <span>Vegaterian options</span>
+                                                        <input type="number" name="vegsandwichesqty[]" value="1" min="0">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                                                                                                                                                            <div class="col col-l-12 checkbox-item">
+                                                <label class="col col-12">
+                                                    <input name="sandwiches[]" value="Sandwiches & Wraps" type="checkbox">
+                                                    <div class="check"></div>
+                                                    <span>Sandwiches & Wraps</span>
+                                                    <span class="menu-desc">Mixed sandwiches and wraps including veg options<br>Per Person</span>
+                                                </label>
+                                                <div class="super-selects">
+                                                    <div class="number-box number-desc">
+                                                        <span>Standard options</span>
+                                                        <input type="number" name="stdsandwichesqty[]" value="1" min="0">
+                                                    </div>
+                                                    <div class="number-box number-desc">
+                                                        <span>Vegaterian options</span>
+                                                        <input type="number" name="vegsandwichesqty[]" value="1" min="0">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                                                                                                                                        </div>
+                                <div class="col col-6 rwd-m-20">
+                                    <h5 class="col col-r-12">Side salads</h5>
+                                                                                                                                                                        <div class="col col-r-12 checkbox-item">
+                                                    <label class="col col-12">
+                                                        <input name="sidesalads[]" value="Garden Salad" type="checkbox">
+                                                        <div class="check"></div>
+                                                        <span>Garden Salad</span>
+                                                        <span class="menu-desc">Carrot, cucumber, tomato, herbs, dressing</span>
+                                                    </label>
+                                                    <div class="select-box special">
+                                                        <select name="sidesaladsqty[]"><option>6-8 PPL</option><option>10-12 PPL</option><option>16-18 PPL</option></select>
+                                                    </div>
+                                                </div>
+                                                                                                                                                                                <div class="col col-r-12 checkbox-item">
+                                                    <label class="col col-12">
+                                                        <input name="sidesalads[]" value="Asian Toss" type="checkbox">
+                                                        <div class="check"></div>
+                                                        <span>Asian Toss</span>
+                                                        <span class="menu-desc">Cucumber, carrot, herbs, sunflower seeds,  sesame dressing</span>
+                                                    </label>
+                                                    <div class="select-box special">
+                                                        <select name="sidesaladsqty[]"><option>6-8 PPL</option><option>10-12 PPL</option><option>16-18 PPL</option></select>
+                                                    </div>
+                                                </div>
+                                                                                                                                                                                <div class="col col-r-12 checkbox-item">
+                                                    <label class="col col-12">
+                                                        <input name="sidesalads[]" value="Greek Pasta Salad" type="checkbox">
+                                                        <div class="check"></div>
+                                                        <span>Greek Pasta Salad</span>
+                                                        <span class="menu-desc">Pasta, cucumber, tomato, feta, olives, Greek dressing</span>
+                                                    </label>
+                                                    <div class="select-box special">
+                                                        <select name="sidesaladsqty[]"><option>6-8 PPL</option><option>10-12 PPL</option><option>16-18 PPL</option></select>
+                                                    </div>
+                                                </div>
+                                                                                                                                                                                <div class="col col-r-12 checkbox-item">
+                                                    <label class="col col-12">
+                                                        <input name="sidesalads[]" value="Southwest Corn Salad" type="checkbox">
+                                                        <div class="check"></div>
+                                                        <span>Southwest Corn Salad</span>
+                                                        <span class="menu-desc">Black beans, corn, red pepper, tomato, cilantro, chili lime vinaigrette</span>
+                                                    </label>
+                                                    <div class="select-box special">
+                                                        <select name="sidesaladsqty[]"><option>6-8 PPL</option><option>10-12 PPL</option><option>16-18 PPL</option></select>
+                                                    </div>
+                                                </div>
+                                                                                                                                                                                <div class="col col-r-12 checkbox-item">
+                                                    <label class="col col-12">
+                                                        <input name="sidesalads[]" value="Kale Caesar" type="checkbox">
+                                                        <div class="check"></div>
+                                                        <span>Kale Caesar</span>
+                                                        <span class="menu-desc">Kale, croutons, vegan parmesan, sunflower seeds, caesar dressing</span>
+                                                    </label>
+                                                    <div class="select-box special">
+                                                        <select name="sidesaladsqty[]"><option>6-8 PPL</option><option>10-12 PPL</option><option>16-18 PPL</option></select>
+                                                    </div>
+                                                </div>
+                                                                                                                                                        </div>
+                            </div>
+
+
+                            <div class="content-header">
+                                <h4>Boxed Lunch</h4>
+                            </div>
+                                                            <div class="form-group">
+                                    <div class="col col-12 checkbox-item ch-long-item">
+                                        <label class="col col-12">
+                                            <input name="boxedlunch[]" value="Classic (side salads only)" type="checkbox">
+                                            <div class="check"></div>
+                                            <span>Classic (side salads only)</span>
+                                            <span class="menu-desc">Per person</span>
+                                        </label>
+                                        <div class="super-selects">
+                                            <div class="select-box special">
+                                                <select name="boxedlunchmix[]"><option>Sandwiches</option><option>Wraps</option><option>Mix (sandwiches and wraps)</option></select>
+                                            </div>
+                                            <div class="select-box special">
+                                                <select name="boxedlunchsalad[]">
+                                                    <option>Garden salad</option>
+                                                    <option>Asian Toss</option>
+                                                    <option>Greek Pasta Salad</option>
+                                                    <option>Quinoa Salad</option>
+                                                    <option>Daily Variety</option>
+                                                </select>
+                                            </div>
+                                            <div class="number-box">
+                                                <input type="number" name="boxedlunchqty[]" value="1" min="0">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col col-12 checkbox-item ch-long-item">
+                                        <label class="col col-12">
+                                            <input name="boxedlunch[]" value="With cookies" type="checkbox">
+                                            <div class="check"></div>
+                                            <span>With cookies</span>
+                                            <span class="menu-desc">Per person</span>
+                                        </label>
+                                        <div class="super-selects">
+                                            <div class="select-box special">
+                                                <select name="boxedlunchmix[]"><option>Sandwiches</option><option>Wraps</option><option>Mix (sandwiches and wraps)</option></select>
+                                            </div>
+                                            <div class="select-box special">
+                                                <select name="boxedlunchsalad[]">
+                                                    <option>Garden salad</option>
+                                                    <option>Asian Toss</option>
+                                                    <option>Greek Pasta Salad</option>
+                                                    <option>Quinoa Salad</option>
+                                                    <option>Daily Variety</option>
+                                                </select>
+                                            </div>
+                                            <div class="number-box">
+                                                <input type="number" name="boxedlunchqty[]" value="1" min="0">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col col-12 checkbox-item ch-long-item">
+                                        <label class="col col-12">
+                                            <input name="boxedlunch[]" value="With chips" type="checkbox">
+                                            <div class="check"></div>
+                                            <span>With chips</span>
+                                            <span class="menu-desc">Per person</span>
+                                        </label>
+                                        <div class="super-selects">
+                                            <div class="select-box special">
+                                                <select name="boxedlunchmix[]"><option>Sandwiches</option><option>Wraps</option><option>Mix (sandwiches and wraps)</option></select>
+                                            </div>
+                                            <div class="select-box special">
+                                                <select name="boxedlunchsalad[]">
+                                                    <option>Garden salad</option>
+                                                    <option>Asian Toss</option>
+                                                    <option>Greek Pasta Salad</option>
+                                                    <option>Quinoa Salad</option>
+                                                    <option>Daily Variety</option>
+                                                </select>
+                                            </div>
+                                            <div class="number-box">
+                                                <input type="number" name="boxedlunchqty[]" value="1" min="0">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <label class="col col-12 m-t-15">
+                                        <textarea class="selected-input" name="boxedlunchallergies" placeholder="Allergies / food restrictions"></textarea>
+                                    </label>
+                                </div>
+
+                            <div class="content-header">
+                                <h4>Rebel platters</h4>
+                            </div>
+                                                            <div class="form-group">
+                                                                                                                        <div class="col col-f-6 checkbox-item">
+                                                <label class="col col-12">
+                                                    <input name="rebelplatters[]" value="Vegetable platter" type="checkbox">
+                                                    <div class="check"></div>
+                                                    <span>Vegetable platter</span>
+                                                    <span class="menu-desc">Veggie spears served with a variety of dips</span>
+                                                </label>
+                                                <div class="select-box special">
+                                                    <select name="rebelplattersqty[]"><option>6-8 PPL</option><option>10-12 PPL</option><option>16-18 PPL</option></select>
+                                                </div>
+                                            </div>
+                                                                                                                                                                <div class="col col-f-6 checkbox-item">
+                                                <label class="col col-12">
+                                                    <input name="rebelplatters[]" value="Veggies, Pita Chips and Dip" type="checkbox">
+                                                    <div class="check"></div>
+                                                    <span>Veggies, Pita Chips and Dip</span>
+                                                    <span class="menu-desc">Veggie spears served with pita chips, hummus and dip</span>
+                                                </label>
+                                                <div class="select-box special">
+                                                    <select name="rebelplattersqty[]"><option>6-8 PPL</option><option>10-12 PPL</option><option>16-18 PPL</option></select>
+                                                </div>
+                                            </div>
+                                                                                                                                                                <div class="col col-f-6 checkbox-item">
+                                                <label class="col col-12">
+                                                    <input name="rebelplatters[]" value="Cheese Platter" type="checkbox">
+                                                    <div class="check"></div>
+                                                    <span>Cheese Platter</span>
+                                                    <span class="menu-desc">A delicious selection of soft and firm cheese served with fruit, crackers and garnish</span>
+                                                </label>
+                                                <div class="select-box special">
+                                                    <select name="rebelplattersqty[]"><option>6-8 PPL</option><option>10-12 PPL</option><option>16-18 PPL</option></select>
+                                                </div>
+                                            </div>
+                                                                                                                                                                <div class="col col-f-6 checkbox-item">
+                                                <label class="col col-12">
+                                                    <input name="rebelplatters[]" value="Charcuterie Platter" type="checkbox">
+                                                    <div class="check"></div>
+                                                    <span>Charcuterie Platter</span>
+                                                    <span class="menu-desc">Classic charcuterie including cured meats, local cheese, pickled veggies, fruit, bread and accompaniments</span>
+                                                </label>
+                                                <div class="select-box special">
+                                                    <select name="rebelplattersqty[]"><option>6-8 PPL</option><option>10-12 PPL</option><option>16-18 PPL</option></select>
+                                                </div>
+                                            </div>
+                                                                                                            </div>
+
+                            <div class="content-header">
+                                <h4>Sweet platters</h4>
+                            </div>
+                                                            <div class="form-group">
+                                                                                                                        <div class="col col-f-6 checkbox-item">
+                                                <label class="col col-12">
+                                                    <input name="sweetplatters[]" value="Fruit Platter" type="checkbox">
+                                                    <div class="check"></div>
+                                                    <span>Fruit Platter</span>
+                                                    <span class="menu-desc">A fresh selection of fruits sliced and diced </span>
+                                                </label>
+                                                                                                    <div class="select-box special">
+                                                        <select name="sweetplattersqty[]"><option>6-8 PPL</option><option>10-12 PPL</option><option>16-18 PPL</option></select>
+                                                    </div>
+                                                                                            </div>
+                                                                                                                                                                <div class="col col-f-6 checkbox-item">
+                                                <label class="col col-12">
+                                                    <input name="sweetplatters[]" value="Baked Goods" type="checkbox">
+                                                    <div class="check"></div>
+                                                    <span>Baked Goods</span>
+                                                    <span class="menu-desc">An assortment of gourmet baked goods and cookies</span>
+                                                </label>
+                                                                                                    <div class="select-box special">
+                                                        <select name="sweetplattersqty[]"><option>6-8 PPL</option><option>10-12 PPL</option><option>16-18 PPL</option></select>
+                                                    </div>
+                                                                                            </div>
+                                                                                                                                                                <div class="col col-f-6 checkbox-item">
+                                                <label class="col col-12">
+                                                    <input name="sweetplatters[]" value="Chocolate Fruit Platter" type="checkbox">
+                                                    <div class="check"></div>
+                                                    <span>Chocolate Fruit Platter</span>
+                                                    <span class="menu-desc">Fresh fruit covered in dark chocolate<br />
+</span>
+                                                </label>
+                                                                                                    <div class="number-box">
+                                                        <input name="sweetplattersqty[]" type="number" value="1" min="0">
+                                                    </div>
+                                                                                            </div>
+                                                                                                                                                                <div class="col col-f-6 checkbox-item">
+                                                <label class="col col-12">
+                                                    <input name="sweetplatters[]" value="Cookie platter" type="checkbox">
+                                                    <div class="check"></div>
+                                                    <span>Cookie platter</span>
+                                                    <span class="menu-desc">Delicious cookies, baked fresh each morning in house</span>
+                                                </label>
+                                                                                                    <div class="number-box">
+                                                        <input name="sweetplattersqty[]" type="number" value="1" min="0">
+                                                    </div>
+                                                                                            </div>
+                                                                                                            </div>
+
+                            <div class="content-header">
+                                <h4>Beverages</h4>
+                            </div>
+                                                            <div class="form-group">
+                                                                                                                        <div class="col col-f-6 checkbox-item">
+                                                <label class="col col-12">
+                                                    <input name="beverages[]" value="Bluebarn Coffie " type="checkbox">
+                                                    <div class="check"></div>
+                                                    <span>Bluebarn Coffie </span>
+                                                    <span class="menu-desc">With milk, cream and raw sugar </span>
+                                                </label>
+                                                <div class="number-box">
+                                                    <input name="beveragesqty[]" type="number" value="1" min="0">
+                                                </div>
+                                            </div>
+                                                                                                                                                                <div class="col col-f-6 checkbox-item">
+                                                <label class="col col-12">
+                                                    <input name="beverages[]" value="Mighty Leaf Teas" type="checkbox">
+                                                    <div class="check"></div>
+                                                    <span>Mighty Leaf Teas</span>
+                                                    <span class="menu-desc">A variety of delicious artisan whole leaf tea</span>
+                                                </label>
+                                                <div class="number-box">
+                                                    <input name="beveragesqty[]" type="number" value="1" min="0">
+                                                </div>
+                                            </div>
+                                                                                                                                                                <div class="col col-f-6 checkbox-item">
+                                                <label class="col col-12">
+                                                    <input name="beverages[]" value="Bottled Water " type="checkbox">
+                                                    <div class="check"></div>
+                                                    <span>Bottled Water </span>
+                                                    <span class="menu-desc">Still or Sparkling </span>
+                                                </label>
+                                                <div class="number-box">
+                                                    <input name="beveragesqty[]" type="number" value="1" min="0">
+                                                </div>
+                                            </div>
+                                                                                                                                                                <div class="col col-f-6 checkbox-item">
+                                                <label class="col col-12">
+                                                    <input name="beverages[]" value="Mixed Juice" type="checkbox">
+                                                    <div class="check"></div>
+                                                    <span>Mixed Juice</span>
+                                                    <span class="menu-desc"></span>
+                                                </label>
+                                                <div class="number-box">
+                                                    <input name="beveragesqty[]" type="number" value="1" min="0">
+                                                </div>
+                                            </div>
+                                                                                                                                                                <div class="col col-f-6 checkbox-item">
+                                                <label class="col col-12">
+                                                    <input name="beverages[]" value="Soft Drinks" type="checkbox">
+                                                    <div class="check"></div>
+                                                    <span>Soft Drinks</span>
+                                                    <span class="menu-desc">Mixed soft drinks</span>
+                                                </label>
+                                                <div class="number-box">
+                                                    <input name="beveragesqty[]" type="number" value="1" min="0">
+                                                </div>
+                                            </div>
+                                                                                                                                                                <div class="col col-f-6 checkbox-item">
+                                                <label class="col col-12">
+                                                    <input name="beverages[]" value="Assorted Beverage Pack" type="checkbox">
+                                                    <div class="check"></div>
+                                                    <span>Assorted Beverage Pack</span>
+                                                    <span class="menu-desc">Still and sparkling water, iced tea, soft drinks and juice</span>
+                                                </label>
+                                                <div class="number-box">
+                                                    <input name="beveragesqty[]" type="number" value="1" min="0">
+                                                </div>
+                                            </div>
+                                                                                                            </div>
+                                                        <input type="hidden" name="token" id="email-input" value="c3ae2475ee" />                            <div class="btn-group">
+                                <a id="trigger-step-1" href="#" class="btn btn-cream btn-icon-right"><i class="icon-arrow-left-dark"></i><span class="btn-text">Step 1</span></a>
+                                <a id="submit" href="#" class="btn btn-brown pull-right">Send form</a>
+                            </div>
+                        </div>
+
+
+
+
+                        <div id="pre-loader" class="pre-loader">
+                            <div class="pre-loader-content">
+                                <div class="sk-fading-circle">
+                                  <div class="sk-circle1 sk-circle"></div>
+                                  <div class="sk-circle2 sk-circle"></div>
+                                  <div class="sk-circle3 sk-circle"></div>
+                                  <div class="sk-circle4 sk-circle"></div>
+                                  <div class="sk-circle5 sk-circle"></div>
+                                  <div class="sk-circle6 sk-circle"></div>
+                                  <div class="sk-circle7 sk-circle"></div>
+                                  <div class="sk-circle8 sk-circle"></div>
+                                  <div class="sk-circle9 sk-circle"></div>
+                                  <div class="sk-circle10 sk-circle"></div>
+                                  <div class="sk-circle11 sk-circle"></div>
+                                  <div class="sk-circle12 sk-circle"></div>
+                                </div>
+                                <p>We're processing your request...</p>
+                            </div>
+                        </div>
+
+                    </form>
+
+                    <div id="message" class="message-container"></div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-note">
+            <p>Feel free to contact us with any questions or specific needs at <a><span><a href="mailto:nezukochan.ncore@gmail.com">nezukochan.ncore@gmail.com</a></span></a> or <a href="tel:123-456-7890">123-456-7890</a></p>
+        </div>
+    </section>
+    <!-- footer -->
+
+
+
+    <footer>
+
+
+
+        <div class="wrapper">
+
+
+
+            <i class="bfp-con"></i>
+
+
+
+            <div class="footer-inner">
+
+
+
+                <div class="f-h-1">
+
+
+
+                    <div class="col col-6">
+
+
+
+                        <a href="../index.html" class="loo"></a>
+
+
+
+                    </div>
+
+
+
+                    <div class="col col-6">
+
+
+
+                        <div class="col col-12">
+
+
+
+                            <a href="https://www.facebook.com/" target="_blank"><i class="icon-fb"></i></a>
+
+
+
+                            <a href="https://twitter.com/sanjaiy2003" target="_blank"><i class="icon-tw"></i></a>
+
+
+
+                            <a href="https://www.instagram.com/0_0_lydian_0_0" target="_blank"><i class="icon-inst"></i></a>
+
+
+
+                        </div>
+
+
+
+                        <div class="col col-12">
+
+
+
+                            <span>call us: <a href="tel:123-456-7890">123-456-7890</a></span>
+
+
+
+                            <span> <a href="mailto:nezukochan.ncore@gmail.com">nezukochan.ncore@gmail.com</a></span>
+
+
+
+                       </div>
+
+
+
+                        <a href="https://itunes.apple.com/app/" target="_blank" class="appstore"></a>
+
+
+
+                    </div>
+
+
+
+                </div>
+
+
+
+                <div class="f-h-2">
+
+
+
+                    <div class="col col-6">
+
+
+
+                        <ul>
+
+
+
+                            <li><a href="../index.html">Home</a></li>
+
+
+
+                            <li><a href="../green-rebel-menu/index.html">Rebel Menu</a></li>
+
+
+
+                            <li><a href="../catering/index.html">Catering</a></li>
+
+
+
+                            <li><a href="../rebel-bowl/index.html">Rebel Bowl</a></li>
+
+
+
+                        </ul>
+
+
+
+                    </div>
+
+
+
+                    <div class="col col-6">
+
+
+
+                        <ul>
+
+
+
+                            <li><a href="../about/index.html">About</a></li>
+
+
+
+                            <li><a href="../contact/index.html">Let's Connect</a></li>
+
+
+
+			    <li><a href="../wp-content/uploads/2018/03/GR-Nutrition.pdf">Nutritional Information</a></li>
+
+
+
+                            <li><a href="../privacy/index.html">Privacy & Terms</a></li>
+
+
+
+                            <li><a href="../careers/index.html">Careers</a></li>
+
+
+
+                        </ul>
+
+
+
+                    </div>
+
+
+
+                </div>
+
+
+
+                <div class="bottom">COPYRIGHT © REBEL 2022 | Branding & Web by: <a href="https://www.instagram.com/0_0_lydian_0_0">Lydian</a></div>
+
+
+
+            </div>
+
+
+
+        </div>
+
+
+
+    </footer>
+
+
+
+<!-- < ?php <div class="popup-overlay" style="display: none;"></div>
+
+<div class="grocery-popup-main" style="display: none;">< ?php dynamic_sidebar('widget-popup');?></div> ?> -->
+
+
+
+
+
+    <script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCwV50KTRYZowLuj_PyFWeXp00Pts5A-l4" ></script>
+
+
+
+	<script type="text/javascript" src="../wp-content/themes/greenrebel/js/jquery.min.js"></script>
+
+
+
+	<script type="text/javascript" src="../wp-content/themes/greenrebel/js/jquery-ui.min.js"></script>
+
+
+
+	<script type="text/javascript" src="../wp-content/themes/greenrebel/js/swiper.min.js"></script>
+
+
+
+	<script type="text/javascript" src="../wp-content/themes/greenrebel/js/scroll.min.js"></script>
+
+
+
+	<script type="text/javascript" src="../wp-content/themes/greenrebel/js/validate.min.js"></script>
+
+
+
+    <script type="text/javascript" src="../wp-content/themes/greenrebel/js/main.min.js"></script>
+
+
+
+<script type="text/javascript">
+
+/* jQuery(document).ready(function(){
+
+   setTimeout(function(){
+
+    jQuery('.popup-overlay').fadeIn();
+
+    jQuery('.grocery-popup-main').fadeIn();
+
+   },1000);
+
+
+
+    jQuery(".popup-overlay, .close-popup").click(function () {
+
+       jQuery('.popup-overlay').fadeOut();
+
+        jQuery('.grocery-popup-main').fadeOut();
+
+    });
+
+}); */
+
+</script>
+
+</body>
+
+
+
+
+</html>
